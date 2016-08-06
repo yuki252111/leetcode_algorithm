@@ -27,9 +27,6 @@ public:
 				temp = 1;
 			}
 		}
-		if (temp > max) {
-			max = temp;
-		}
-		return max;
+		return temp > max? temp: max;
 	}
 };
