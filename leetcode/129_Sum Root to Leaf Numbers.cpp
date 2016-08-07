@@ -45,12 +45,3 @@ private:
 	}
 };
 
-int main() {
-	TreeNode* root = new TreeNode(0);
-	TreeNode* left = new TreeNode(1);
-	TreeNode* right = new TreeNode(3);
-	root->left = left;
-	root->right = right;
-	Solution s;
-	s.sumNumbers(root);
-}
