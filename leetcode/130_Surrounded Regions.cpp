@@ -65,9 +65,3 @@ private:
 		}
 	}
 };
-
-int main() {
-	vector<vector<char>> board(2, vector<char>(2, 'O'));
-	Solution s;
-	s.solve(board);
-}
