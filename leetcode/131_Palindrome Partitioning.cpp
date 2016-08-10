@@ -52,7 +52,7 @@ private:
 	}
 };
 
-int main() {
+/*int main() {
 	Solution s;
 	s.partition("bb");
-}
+}*/
